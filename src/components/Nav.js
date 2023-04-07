@@ -19,13 +19,13 @@ function Nav() {
     }, []);
 
     return (
-        <div className={`nav ${show && 'nav_black'}`}>
-            <div className="nav_contents">
-                <img className="nav_logo" 
+        <div className={`nav ${show && 'nav-black'}`}>
+            <div className="nav-contents">
+                <img className="nav-logo" 
                     src={netflixLogo}
                     alt="Netflix logo" 
                 />
-                <img className="nav_avatar" 
+                <img className="nav-avatar" 
                     src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/gdruy0cnkgnaadpxiadi" 
                     alt="Avatar" 
                 />

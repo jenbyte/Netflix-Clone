@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Banner from '../components/Banner';
 import Nav from '../components/Nav';
 import './HomeScreen.css';
 
@@ -7,41 +8,7 @@ class HomeScreen extends Component {
         return (
             <div className="homeScreen">
 				<Nav />
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
-				<h1>MOVIE</h1>
+				<Banner />
             </div>
         );
     }

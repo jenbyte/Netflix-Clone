@@ -9,11 +9,11 @@
     transition: all 0.25s;
 }
 
-.nav_black {
+.nav-black {
     background: #000;
 }
 
-.nav_contents {
+.nav-contents {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,12 +21,12 @@
     padding: 20px;
 }
 
-.nav_logo {
+.nav-logo {
     width: 100px;
     cursor: pointer;
 }
 
-.nav_avatar {
+.nav-avatar {
     width: 40px;
     cursor: pointer;
 }
