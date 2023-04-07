@@ -6,8 +6,42 @@ class HomeScreen extends Component {
     render() {
         return (
             <div className="homeScreen">
-                <h1>Home Screen</h1>
 				<Nav />
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
+				<h1>MOVIE</h1>
             </div>
         );
     }
