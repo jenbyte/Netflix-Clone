@@ -1,5 +1,7 @@
 import React from 'react';
 import './Banner.css';
+import { PlayArrow, Info } from '@mui/icons-material';
+
 
 function Banner(props) {
     return (
@@ -13,11 +15,23 @@ function Banner(props) {
             <div className="banner-contents">
                 <h1 className="banner-title">Movie Title</h1>
                 <div className="banner-buttons">
-                    <button className="banner-button">Play</button>
-                    <button className="banner-button">My List</button>
+                    <button className="banner-button play-btn-wrapper">
+                        <PlayArrow className="icon-btn">Filled</PlayArrow>
+                        Play
+                    </button>
+                    <button className="banner-button info-btn-wrapper">
+                        <span className="info-btn-content">
+                            <Info className="icon-btn"></Info>
+                            My List
+                        </span>
+                    </button>
                 </div>
 
                 <h1 className="banner-description">This is a test description</h1>
+            </div>
+
+            <div className="">
+
             </div>
         </header>
     );
